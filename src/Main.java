@@ -29,7 +29,7 @@ public class Main {
             taskDisplay();
             if (myIn.hasNextInt()) {
                 taskNum = myIn.nextInt();
-                myIn.nextLine(); // Consume newline
+                myIn.nextLine();
             } else {
                 System.out.println("Invalid input. Exiting.");
                 break;
